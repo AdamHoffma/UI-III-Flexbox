@@ -64,3 +64,162 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+body {
+	width: 1000px;
+	margin: auto;
+}
+
+.navbar {
+	width: 880px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	width: 75%;
+}
+nav a {
+	font-size: 14px;
+	color: gray;
+	padding-top: 25px;
+	text-decoration: none;
+}
+
+.logo {
+	margin-left: 130px;
+
+}
+
+.innovation {
+	margin-top: 70px;
+	display: flex;
+	width: 1000px;
+	justify-content: space-between;
+	padding-bottom: 125px;
+	border-bottom: 1px solid black;
+	
+
+
+}
+.mainheader {
+	font-size: 65px;
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-top: 80px;
+}
+
+ .mainheaders {
+	display: flex;
+	flex-direction: column;
+	margin-left: 100px;
+	text-align: center;
+	padding-right: 300px;
+}
+
+.img {
+	padding-left: 700px;
+}
+
+button {
+	background: white;
+}
+
+.main {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	justify-content: space-between;
+}
+
+
+.main1 {
+	width: 48%;
+}
+
+.main2 {
+	width: 48%;
+}
+
+.final3 {
+	display: flex;
+	width: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-bottom: 1px solid black
+	
+}
+
+.div1 {
+	width: 30%;
+}
+
+.div2 {
+	width: 30%
+}
+
+.div3 {
+	width: 30%;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
+	width: 20%;
+	justify-content: space-between;
+	height: 300px;
+}
+
+.address, .phone-number, .website {
+	font-size: 14px;
+}
+
+.copyright {
+	text-align: center;
+	font-size: 72px;
+	padding-top: 40px;
+}
+
+.services-header-img {
+	padding-top: 30px;
+	padding-bottom: 30px
+	
+}
+
+h3 {
+	padding-top: 30px;
+}
+
+.serviceparagraph {
+	border-bottom: 1px solid black;
+	width: 880px;
+	margin-bottom: 30px;
+	padding: 15px 0px 30px;
+	
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
